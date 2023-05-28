@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ewako Exchange</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>Ewako-Exchange.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#aplikasi">Aplikasi</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="home.png"/>
+            <div class="kolom">
+                <p class="deskripsi">Prediksi Nilai Mata Uang Dollar dan Rupiah Yuk!!</p>
+                <h2>Money</h2>
+                <p><a href="about" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+        </section>
+
+        <!-- untuk about -->
+        <section id="about">
+            <div class="kolom">
+                <h2>Exchange</h2>
+                <p>Prediksi ini guna melakukan forcasting nilai tukar dollar terhadap rupiah menggunakan artificial neural network. Hasil dari prediksi ini yang berupa prakiraan Harga nilai tukar dollar terhadap rupiah untuk 2 tahun kedepan yang diharapkan dapat dijadikan perimbangan bagi investor dalam menginvestasikan sahamnya</p>
+            </div>
+            <img src="about.png"/>
+        </section>
+
+         <!-- untuk aplikasi -->
+        <section id="aplikasi">
+                <form onsubmit="return false;">
+                <h2>Konverter Mata Uang</h2>
+                <label>
+                    Pasangan
+                    <select id="list" onchange="changeText()" style="font-size: 22px; width: 220px; height: 33px;">
+                        <option value="">Dolar→Rupiah</option>
+                        <option value="">Rupiah→Dolar</option>
+                        </select>
+                        
+                </label>
+                <p>
+                    <label>Jumlah <input id="amount" value="-" style="font-size: 22px; width: 170px;" oninput="changeText()"></label>
+                </p>
+                <p><output id="res1" style="text-align: left; font-size: 24px; font-weight:bold; color: #0a0b0a;">-</output></p> 
+                    
+            </form>
+        
+            </div>
+            
+        </section>
+        </select>
+
+         <!-- untuk team -->
+         <section id="team">
+            <div class="tengah">
+                <div class="kolom">
+                         <h2>Our Team</h2>
+                    <p>Ewako - Exchange</p>
+                </div>
+
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="lulu.JPG"/>
+                        <p>Lulu</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="dastin.jpg"/>
+                        <p>Dastin</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="haga.jpg"/>
+                        <p>Haga</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="brenda.jpg"/>
+                        <p>Brenda</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- untuk contact -->
+         <section id="contact">
+        
+            <div id="copyright">
+        <div class="wrapper">
+            &copy; 2023. <b>exchange.</b> All Rights Reserved.
+        </div>
+    </div>
+    </head>
+</body>
+</html>
